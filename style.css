@@ -324,13 +324,16 @@ ul#projects > li:last-child {
     border-bottom: 0;
 }
 
-ul#projects > li > span.project-image {
-    display: block;
+ul#projects > li > a {
+	display: block;
     width: 20%;
     height: 9rem;
-    background-size: contain;
-    background-position: top center;
-    background-repeat: no-repeat;
+}
+
+ul#projects > li > a > img.project-image {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 ul#projects > li > span.project-description {
