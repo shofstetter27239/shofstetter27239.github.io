@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+html,body {
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+html, html a {
+    /* Font varient */
+    font-variant-ligatures: none;
+    -webkit-font-variant-ligatures: none;
+    /* Smoothing */
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+}
+
+body {
+    font-size: 15px;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 26px;
+    font-size: 2.6rem;
+}
+
+h1, h2, h3, h4, h5, h6, b, strong {
+	font-weight: 400;
+}
+
+
+div#page-wrapper {
+	background-color: #eaeaea;
+	position: relative;
+}
+
+div#page-content {
+	max-width: 96rem;
+	height: 100%;
+	position: relative;	
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+div#page-header {
+	background-color: #1f1f1f;	
+	color: #fff;
+	width: 100%;
+	position: absolute;
+	top: 0rem;
+	display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+div#name-title {
+    padding-left: 1rem;
+}
+
+div#name-title > h1 {
+	font-size: 4.4rem;
+}
+
+div#name-title > h2 {
+	font-size: 3.4rem;
+}
+
+
+div#contact {
+
+}
+
+div#contact > ul > li {
+	display: flex;
+	padding: 0.5rem;
+	line-height: 1.5rem;
+    align-items: flex-start;
+}
+
+div#contact > ul > li > i.fas {
+	padding-right: 0.5rem;
+}
+
+div#contact > ul > li > a {
+	vertical-align: text-top;
+	text-decoration: none;
+	color: #fff;
+}
+
+div#contact > ul > li > a:hover {
+	text-decoration: underline;
+}
+
+div#resume-body {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 11rem 1rem 1rem 1rem;
+	margin-bottom: 1.25rem;
+}
+
+div#resume-body div.content-block {
+    display: block;
+    max-width: 44.5rem;
+    min-height: 10rem;
+    background: #fbfbfb;
+    margin: 0 0 1rem 0;
+    padding: 0.5rem 1rem;
+    width: 44.5rem;
+    font-size: 1.6rem;
+	line-height: 1.5;
+}
+
+div#resume-body div.content-block:nth-child(1) {
+    display: block;
+    width: 92.5rem;
+    max-width: 92.5rem;
+    min-height: 10rem;
+    background: #fbfbfb;
+    margin: 0 0 1rem 0;
+    padding: 0.5rem 1rem;
+}
+
+div#resume-body div.content-block > h3 {
+    background: #1f1f1f;
+    text-align: center;
+    color: #fff;
+    padding: 0.5rem;
+    margin: 0 -1rem 1rem -1rem;
+}
+
+div#resume-body > div#intro.content-block {
+	font-size: 1.8rem;
+	line-height: 1.5;
+}
+
+div#resume-body > div#intro.content-block > p {
+	margin-bottom: 1rem;
+	text-indent: 2rem;
+}
+
+ul#skills {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+ul#skills > li {
+    padding: 0.5rem;
+    display: inline-block;
+    background: #d8d8d8;
+    width: fit-content;
+    border-radius: 0.5rem;
+    margin: 0.25rem;
+}
+
+
+ul#interests {
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+}
+
+ul#interests > li {
+    width: 50%;
+    display: block;
+    padding: 0 0 0.5rem 0;
+}
+
+ul#employment {
+    display: flex;
+    flex-direction: column;
+}
+
+ul#employment > li {
+    display: flex;
+    border-bottom: 1px solid #cacaca;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    padding: 0 0 1rem 0;
+}
+
+ul#employment > li:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+ul#employment > li > div.logo-block {
+    display: flex;
+    flex-basis: 25%;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+}
+
+ul#employment > li > div.logo-block > div.company-logo {
+    display: block;
+    position: relative;
+    width: 90%;
+    height: 7rem;
+    margin: 0.25rem 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+ul#employment > li > div.logo-block > span.company-name {
+    text-align: center;
+    display: block;
+}
+
+div.buildfax {
+	background-image: url('img/buildfax.png');
+}
+
+div.acosta {
+	background-image: url('img/acosta.png');
+}
+
+div.delta-controls {
+	background-image: url('img/delta-controls-logo.gif');
+}
+
+div.productive-designs {
+
+}
+
+div.magna-fabrics {
+	background-image: url('img/mf-logo.png');
+}
+
+div.trac-company {
+	background-image: url('img/trac-logo.png');
+}
+
+div.automation-repair {
+	background-image: url('img/AR-logo.png');
+}
+
+div.employment-info {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem 0 0.5rem;
+    flex-basis: 100%;
+    justify-content: flex-start;
+}
+
+ul#employment > li > div.employment-info > span.employement-dates {
+    font-style: italic;
+    display: block;
+    width: 100%;
+}
+
+ul#employment > li > div.employment-info > span.position {
+    font-weight: 400;
+    display: block;
+    width: 100%;
+}
+
+ul#employment > li > div.employment-info > div.accomplishments {
+	display: block;
+	width: 100%;
+}
+
+ul#education {
+	display: table;
+}
+
+ul#education > li {
+	display: table-row;
+}
+
+ul#education > li span.institution {
+    display: table-cell;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    border-right: 1px solid #cacaca;
+    border-bottom: 1px solid #cacaca;
+}
+
+ul#education > li span.dates {
+    font-style: italic;
+    display: table-cell;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;    
+    border-right: 1px solid #cacaca;
+    border-bottom: 1px solid #cacaca;
+}
+
+ul#education > li span.completion {
+    display: table-cell;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    border-bottom: 1px solid #cacaca;
+}
+
+ul#education > li:last-child > span {
+	border-bottom: 0;
+}
+
+ul#education > li:first-child > span {
+	font-weight: 400;
+	font-style: normal;
+}
+
+ul#projects {
+	display: table;
+}
+
+ul#projects > li {
+    display: flex;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-bottom: 1px solid #cacaca;
+}
+
+ul#projects > li:last-child {
+    border-bottom: 0;
+}
+
+ul#projects > li > span.project-image {
+    display: block;
+    width: 20%;
+    height: 9rem;
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+ul#projects > li > span.project-description {
+    display: block;
+    padding: 0 0 0.5rem 1rem;
+    width: 80%;
+}
+
+ul#projects > li > span.project-description > span.project-title {
+	display: block;
+	font-weight: 400;
+	margin-bottom: 0.5rem;
+}
+
+ul#projects > li > span.project-description > span.project-link > a {
+	display:block;
+	text-decoration: none;
+	color: #1f1f1f;
+	margin-bottom: 0.5rem;
+}
+
+ul#projects > li > span.project-description > span.project-link > a:hover {
+	display:block;
+	text-decoration: underline;
+	
+}
+
+ul#projects > li > span.project-image.openlibrary {
+	background-image: url('img/openlibrarybooksearch-ss.png');
+}
+
+ul#projects > li > span.project-image.circuschrome {
+	background-image: url('img/circuschrome-ss.png');
+}
+
+ul#projects > li > span.project-image.buttercupcafe {
+	background-image: url('img/thebuttercupcafe-ss.png');
+}
+
+ul#projects > li > span.project-image.delta-control {
+	background-image: url('img/delta-control-ss.png');
+}
+
+ul#projects > li > span.project-image.thetraccompany {
+	background-image: url('img/thetraccompany-ss.png');
+}
+
+ul#projects > li > span.project-image.automation-repair {
+	background-image: url('img/automation-repair-ss.png');
+}
+
+ul#projects > li > span.project-image.askjohnanddave {
+	background-image: url('img/askjohnanddave-ss.png');
+}
+
+ul#projects > li > span.project-image.xycom-repair {
+	background-image: url('img/xycom-repair-ss.png');
+}
+
+ul#projects > li > span.project-image.carolinaboardrepair {
+	background-image: url('img/carolinaboardrepair-ss.png');
+}
+
+ul#projects > li > span.project-image.ipbroadcastvideo {
+	background-image: url('img/ipbroadcastvideo-ss.png');
+}
+
+ul#projects > li > span.project-image.delivery-buildfax {
+	background-image: url('img/delivery-buildfax-ss.png');
+}
+
+ul#projects > li > span.project-image.www-buildfax {
+	background-image: url('img/buildfax-com-ss.png');
+}
+
+ul#projects > li > span.project-image.travelers-openhouse {
+	background-image: url('img/travelers-openhouse-ss.png');
+}
+
+ul#links {
+
+}
+
+ul#links > li {
+	margin-bottom: 1rem;
+	display: flex;
+}
+
+ul#links > li > a {
+	color: #1f1f1f;
+	text-decoration: none;
+	margin-left: 1rem;
+}
+
+ul#links > li > a:hover {
+	color: #1f1f1f;
+	text-decoration: underline;
+}
+
+ul#links > li > i.fa-linkedin {
+	font-size: 4rem;
+	color: #0077B5;
+	background: #fff;
+}
+
+ul#links > li > i.fa-github {
+	font-size: 4rem;
+	color: #fff;
+	background: #24292E;
+	border-radius: 4rem;
+	height: 4rem;
+}
+
+div#footer {
+    background-color: #1f1f1f;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    bottom: 0rem;
+    text-align: center;
+    padding: 0.25rem 0;
+}
+
+
+
+
